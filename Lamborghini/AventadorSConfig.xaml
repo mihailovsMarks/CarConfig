@@ -1,0 +1,118 @@
+﻿<Page x:Class="Lamborghini.AventadorSConfig"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Lamborghini"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1100"
+      Title="AventadorSConfig" Background="White">
+
+    <Grid>
+
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="1092"/>
+        <Image HorizontalAlignment="Left" Height="69" Margin="988,10,0,0" VerticalAlignment="Top" Width="68" Source="Images/Logo.PNG"/>
+        <Label Content="Lamborghini" HorizontalAlignment="Left" Margin="844,25,0,0" VerticalAlignment="Top" Width="120" Height="38" Background="Black" BorderBrush="Black" Foreground="#DDFFFFFF" FontFamily="Blackadder ITC" FontSize="22" FontWeight="Bold"/>
+        <Rectangle Fill="#FF089B03" HorizontalAlignment="Left" Height="6" Margin="0,100,0,0" Stroke="#FF747474" VerticalAlignment="Top" Width="400"/>
+        <Rectangle Fill="#FF110F0F" HorizontalAlignment="Left" Height="34" Stroke="Black" VerticalAlignment="Top" Width="1092" Margin="0,636,0,0"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="6" Margin="400,100,0,0" Stroke="#FF747474" VerticalAlignment="Top" Width="391"/>
+        <Rectangle Fill="#FF9B1515" HorizontalAlignment="Left" Height="6" Margin="692,100,0,0" Stroke="#FF747474" VerticalAlignment="Top" Width="400"/>
+        <Label Content="AVENTADOR-S" HorizontalAlignment="Left" Margin="484,166,0,0" VerticalAlignment="Top" Width="166" Height="36" FontFamily="Tw Cen MT" FontWeight="Bold" FontSize="24" Foreground="#FF1D1B1B"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="1" Margin="343,207,0,0" Stroke="#FF807878" VerticalAlignment="Top" Width="425"/>
+        <Rectangle Fill="#FF6C6363" HorizontalAlignment="Left" Height="6" Margin="553,205,0,0" Stroke="#FF6C6363" VerticalAlignment="Top" Width="6" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="45.626"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image Source="Images/Aventador-S/YellowAvSV2.png" HorizontalAlignment="Left" Height="306" Margin="305,226,0,0" VerticalAlignment="Top" Width="766" RenderTransformOrigin="0.5,0.5" Stretch="Fill"/>
+        <Rectangle HorizontalAlignment="Left" Height="102" Margin="349,481,0,0"  VerticalAlignment="Top" Width="713" RenderTransformOrigin="0.5,0.5" Stroke="#FFCEBDBD"/>
+        <Rectangle HorizontalAlignment="Left" Height="89" Margin="815,393,0,0" VerticalAlignment="Top" Width="246" RenderTransformOrigin="0.5,0.5" Stroke="#FFCEBDBD"/>
+        <Rectangle HorizontalAlignment="Left" Height="102" Margin="699,481,0,0" VerticalAlignment="Top" Width="235" RenderTransformOrigin="0.5,0.5" Stroke="#FFCEBDBD"/>
+        <Rectangle HorizontalAlignment="Left" Height="102" Margin="527,481,0,0" VerticalAlignment="Top" Width="173" RenderTransformOrigin="0.5,0.5" Stroke="#FFCEBDBD"/>
+        <TextBlock HorizontalAlignment="Left" Margin="753,515,0,0" TextWrapping="Wrap" Text="POWER (CV) / POWER (KW)" VerticalAlignment="Top" Foreground="Black" FontSize="8" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="569,515,0,0" TextWrapping="Wrap" Text="MAX. SPEED" VerticalAlignment="Top" Foreground="Black" FontSize="8" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="976,514,0,0" TextWrapping="Wrap" Text="0-100 KM/H" VerticalAlignment="Top" Foreground="Black" FontSize="8" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="568,521,0,0" TextWrapping="Wrap" Text="350 km/h" VerticalAlignment="Top" Foreground="Black" FontSize="20" Height="28" Width="88"/>
+        <TextBlock HorizontalAlignment="Left" Margin="752,520,0,0" TextWrapping="Wrap" Text="740 CV / 544kW" VerticalAlignment="Top" Foreground="Black" FontSize="20" Height="28" Width="151"/>
+        <TextBlock HorizontalAlignment="Left" Margin="976,520,0,0" TextWrapping="Wrap" Text="2,9 s" VerticalAlignment="Top" Foreground="Black" FontSize="20" Height="28" Width="63"/>
+        <TextBlock FontWeight="Bold" HorizontalAlignment="Left" Margin="858,426,0,0" TextWrapping="Wrap" Text="Model information" VerticalAlignment="Top" Foreground="#FF1D1B1B" FontSize="20" Height="28" Width="189"/>
+        <Button x:Name="Btn_Back" Content="Back" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Width="75" Click="Btn_Back_Click" Background="#FF6F6969" Height="29" BorderBrush="#FF1BC700"/>
+
+        <Grid  Width="272" Height="350" Margin="50,219,0,131" VerticalAlignment="Center" HorizontalAlignment="Left">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="73*"/>
+                <ColumnDefinition Width="177*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <ComboBox x:Name="cb_Paint" HorizontalAlignment="Left" VerticalAlignment="Center" Width="152" Background="White" BorderBrush="Black" Grid.Column="2" Height="28" Grid.Row="0" 
+             OpacityMask="Black" Foreground="Black" />
+            <TextBlock HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Paint :" VerticalAlignment="Center" FontSize="18" Height="28" Width="63" Grid.ColumnSpan="1" Grid.Row="0" OpacityMask="Black">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <ComboBox x:Name="cb_Rims" HorizontalAlignment="Left"  VerticalAlignment="Center" Width="152" Background="White" BorderBrush="Black" Grid.Column="2" Height="28" Grid.Row="1"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Rims :" VerticalAlignment="Center" FontSize="18" Height="28" Width="63" Grid.ColumnSpan="1" Grid.Row="1" OpacityMask="Black" >
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <ComboBox x:Name="cb_Brake" HorizontalAlignment="Left"  VerticalAlignment="Center" Width="152" Background="White" BorderBrush="Black" Grid.Column="2" Height="28" Grid.Row="2"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Brake : Caliper " VerticalAlignment="Top" FontSize="15" Height="41" Width="63" Grid.ColumnSpan="1" Grid.Row="2" Margin="9,16,7.2,0" OpacityMask="Black">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <ComboBox x:Name="cb_EngineArea" HorizontalAlignment="Left"  VerticalAlignment="Center" Width="152" Background="White" BorderBrush="Black" Grid.Column="2" Height="28" Grid.Row="3"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Engine : Area" VerticalAlignment="Center" FontSize="15" Height="44" Width="63" Grid.ColumnSpan="1" Grid.Row="3" Margin="8,14.4,8.2,12" OpacityMask="Black">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <ComboBox x:Name="cb_TopView" HorizontalAlignment="Left" VerticalAlignment="Center" Width="152" Background="White" BorderBrush="Black" Grid.Column="2" Height="28" Grid.Row="4"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Top : View" VerticalAlignment="Center" FontSize="15" Height="41" Width="63" Grid.ColumnSpan="1" Grid.Row="4" Margin="8,15,8.2,14.4" OpacityMask="Black">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+        </Grid>
+        <Label Content="Exterior" HorizontalAlignment="Left" Margin="52,185,0,0" VerticalAlignment="Top" Width="166" Height="36" FontFamily="Tw Cen MT" FontWeight="Bold" FontSize="24" OpacityMask="Black">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF1D1B1B" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="1" Margin="58,214,0,0" Stroke="#FF6F6969" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Btn_Save" Content="Save and View Configurations" HorizontalAlignment="Left" Margin="54,582,0,0" VerticalAlignment="Top" Width="243" Background="#FF6F6969" BorderBrush="#FFA8A2B4" Click="Btn_Configuration_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="392,515,0,0" TextWrapping="Wrap" Text="Colour" VerticalAlignment="Top" Foreground="Black" FontSize="8" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="391,521,0,0" TextWrapping="Wrap" Text="Custom" VerticalAlignment="Top" Foreground="Black" FontSize="20" Height="28" Width="88"/>
+    </Grid>
+</Page>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LamboModelStoreContainer" CdmEntityContainer="LamboEntities">
+    <EntitySetMapping Name="TblConfigs">
+      <EntityTypeMapping TypeName="LamboModel.TblConfig">
+        <MappingFragment StoreEntitySet="TblConfig">
+          <ScalarProperty Name="PaintJob" ColumnName="PaintJob" />
+          <ScalarProperty Name="ConID" ColumnName="ConID" />
+          <ScalarProperty Name="Paint" ColumnName="Paint" />
+          <ScalarProperty Name="Rims" ColumnName="Rims" />
+          <ScalarProperty Name="BrakeAndCaliper" ColumnName="BrakeAndCaliper" />
+          <ScalarProperty Name="EngineArea" ColumnName="EngineArea" />
+          <ScalarProperty Name="TopView" ColumnName="TopView" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCustomConfigs">
+      <EntityTypeMapping TypeName="LamboModel.tblCustomConfig">
+        <MappingFragment StoreEntitySet="tblCustomConfig">
+          <ScalarProperty Name="CarImage" ColumnName="CarImage" />
+          <ScalarProperty Name="CtopView" ColumnName="CtopView" />
+          <ScalarProperty Name="CengineArea" ColumnName="CengineArea" />
+          <ScalarProperty Name="CbrakeAndcaliper" ColumnName="CbrakeAndcaliper" />
+          <ScalarProperty Name="Crims" ColumnName="Crims" />
+          <ScalarProperty Name="Cpaint" ColumnName="Cpaint" />
+          <ScalarProperty Name="ConfID" ColumnName="ConfID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

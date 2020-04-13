@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LamboModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TblConfig">
+    <Key>
+      <PropertyRef Name="ConID" />
+    </Key>
+    <Property Name="ConID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Paint" Type="nvarchar" MaxLength="50" />
+    <Property Name="Rims" Type="nvarchar" MaxLength="50" />
+    <Property Name="BrakeAndCaliper" Type="nvarchar" MaxLength="50" />
+    <Property Name="EngineArea" Type="nvarchar" MaxLength="50" />
+    <Property Name="TopView" Type="nvarchar" MaxLength="50" />
+    <Property Name="PaintJob" Type="image" />
+  </EntityType>
+  <EntityType Name="tblCustomConfig">
+    <Key>
+      <PropertyRef Name="ConfID" />
+    </Key>
+    <Property Name="ConfID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cpaint" Type="nvarchar" MaxLength="50" />
+    <Property Name="Crims" Type="nvarchar" MaxLength="50" />
+    <Property Name="CbrakeAndcaliper" Type="nvarchar" MaxLength="50" />
+    <Property Name="CengineArea" Type="nvarchar" MaxLength="50" />
+    <Property Name="CtopView" Type="nvarchar" MaxLength="50" />
+    <Property Name="CarImage" Type="varbinary(max)" />
+  </EntityType>
+  <EntityContainer Name="LamboModelStoreContainer">
+    <EntitySet Name="TblConfig" EntityType="Self.TblConfig" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblCustomConfig" EntityType="Self.tblCustomConfig" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

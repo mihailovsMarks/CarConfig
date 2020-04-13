@@ -1,0 +1,71 @@
+﻿<Page x:Class="Lamborghini.Main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Lamborghini"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1100"
+      Title="Main"
+
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="1092"/>
+        <Image HorizontalAlignment="Left" Height="69" Margin="988,10,0,0" VerticalAlignment="Top" Width="68" Source="Images/Logo.PNG"/>
+        <Label Content="Lamborghini" HorizontalAlignment="Left" Margin="844,25,0,0" VerticalAlignment="Top" Width="120" Height="38" Background="Black" BorderBrush="Black" Foreground="#DDFFFFFF" FontFamily="Blackadder ITC" FontSize="22" FontWeight="Bold"/>
+        <Rectangle Fill="#FF089B03" HorizontalAlignment="Left" Height="6" Margin="0,100,0,0" Stroke="#FF747474" VerticalAlignment="Top" Width="400"/>
+        <Rectangle Fill="#FF110F0F" HorizontalAlignment="Left" Height="34" Stroke="Black" VerticalAlignment="Top" Width="1092" Margin="0,636,0,0"/>
+        <Image HorizontalAlignment="Left" Height="136" Margin="10,292,0,0" VerticalAlignment="Top" Width="305" Source="Images/Aventador-S/aventador-s.png"/>
+        <Image HorizontalAlignment="Left" Height="136" Margin="401,292,0,0" VerticalAlignment="Top" Width="306" Source="Images/Aventador-SVJ/aventador-svj.png"/>
+        <Image HorizontalAlignment="Left" Height="136" Margin="777,292,0,0" VerticalAlignment="Top" Width="305" Source="Images/Aventador-S-Roadster/aventador-s-roadster.png"/>
+
+        <Button x:Name="Btn_Aventador_s"
+      Style="{StaticResource MaterialDesignRaisedButton}"
+      ToolTip="Resource name: MaterialDesignRaisedButton" Margin="100,433,855,204" Background="White" Foreground="#DD000000" BorderBrush="White" FontWeight="Bold" Content="AVENTADOR-S" Height="Auto" Click="Btn_Aventador_s_Click"/>
+        <Button x:Name="Btn_Aventador_svj"
+            Style="{StaticResource MaterialDesignRaisedButton}"
+            ToolTip="Resource name: MaterialDesignRaisedButton" Margin="484,433,452,204" Background="White" Foreground="#DD000000" BorderBrush="White" FontWeight="Bold" Content="AVENTADOR-SVJ" Height="Auto" />
+        <Button x:Name="Btn_Aventador_s_roadster"
+            Style="{StaticResource MaterialDesignRaisedButton}"
+            ToolTip="Resource name: MaterialDesignRaisedButton" Margin="820,433,50,204" Background="White" Foreground="#DD000000" BorderBrush="White" FontWeight="Bold" Content="AVENTADOR-S-ROADSTER" Height="Auto"/>
+
+        <materialDesign:Card
+  Background="{DynamicResource MaterialDesignBackground}">
+            <StackPanel>
+                <Border
+      Background="{DynamicResource MaterialDesignDivider}"
+      Height="1"
+      HorizontalAlignment="Stretch"
+      SnapsToDevicePixels="True" />
+                <Border
+      Background="{DynamicResource MaterialDesignDivider}"
+      Height="1"
+      HorizontalAlignment="Stretch"
+      SnapsToDevicePixels="True" />
+            </StackPanel>
+        </materialDesign:Card>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="6" Margin="400,100,0,0" Stroke="#FF747474" VerticalAlignment="Top" Width="391"/>
+        <Rectangle Fill="#FF9B1515" HorizontalAlignment="Left" Height="6" Margin="692,100,0,0" Stroke="#FF747474" VerticalAlignment="Top" Width="400"/>
+        <Label Content="AVENTADOR" HorizontalAlignment="Left" Margin="484,166,0,0" VerticalAlignment="Top" Width="156" Height="36" FontFamily="Tw Cen MT" FontWeight="Bold" FontSize="24"/>
+        <Rectangle Fill="#FF6C6363" HorizontalAlignment="Left" Height="1" Margin="343,207,0,0" Stroke="#FF6C6363" VerticalAlignment="Top" Width="425"/>
+        <Rectangle Fill="#FF6C6363" HorizontalAlignment="Left" Height="6" Margin="553,205,0,0" Stroke="#FF6C6363" VerticalAlignment="Top" Width="6" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="44.885"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        
+    </Grid>
+</Page>

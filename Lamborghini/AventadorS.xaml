@@ -1,0 +1,40 @@
+﻿<Page x:Class="Lamborghini.AventadorS"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Lamborghini"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1100"
+      Title="AventadorS" Background="White"
+      
+      >
+
+    <Grid>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="1092"/>
+        <Image HorizontalAlignment="Left" Height="69" Margin="988,10,0,0" VerticalAlignment="Top" Width="68" Source="Images/Logo.PNG"/>
+        <Label Content="Lamborghini" HorizontalAlignment="Left" Margin="844,25,0,0" VerticalAlignment="Top" Width="120" Height="38" Background="Black" BorderBrush="Black" Foreground="#DDFFFFFF" FontFamily="Blackadder ITC" FontSize="22" FontWeight="Bold"/>
+        <Rectangle Fill="#FF089B03" HorizontalAlignment="Left" Height="6" Margin="0,100,0,0" Stroke="#FF747474" VerticalAlignment="Top" Width="400"/>
+        <Rectangle Fill="#FF110F0F" HorizontalAlignment="Left" Height="34" Stroke="Black" VerticalAlignment="Top" Width="1092" Margin="0,636,0,0"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="6" Margin="400,100,0,0" Stroke="#FF747474" VerticalAlignment="Top" Width="391"/>
+        <Rectangle Fill="#FF9B1515" HorizontalAlignment="Left" Height="6" Margin="692,100,0,0" Stroke="#FF747474" VerticalAlignment="Top" Width="400"/>
+        <Label Content="AVENTADOR-S" HorizontalAlignment="Left" Margin="484,166,0,0" VerticalAlignment="Top" Width="166" Height="36" FontFamily="Tw Cen MT" FontWeight="Bold" FontSize="24"/>
+        <Rectangle Fill="#FF6C6363" HorizontalAlignment="Left" Height="1" Margin="343,207,0,0" Stroke="#FF6C6363" VerticalAlignment="Top" Width="425"/>
+        <Rectangle Fill="#FF6C6363" HorizontalAlignment="Left" Height="6" Margin="553,205,0,0" Stroke="#FF6C6363" VerticalAlignment="Top" Width="6" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="46.572"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image  HorizontalAlignment="Left" Height="230" Margin="167,246,0,0" VerticalAlignment="Top" Width="483" Source="Images/Aventador-S/3-1-718X310.jpg"/>
+        <Label Content="There's an air of shark-like menace to the redesigned face of the &#xD;&#xA;Aventador S, an impression that's conveyed by the redesigned &#xD;&#xA;front spoiler and splitter. But it's no mere cosmetic change; &#xD;&#xA;compared with the original Aventador, the new Aventador S &#xD;&#xA;generates around 130% more front downforce and in &#xD;&#xA;low-drag configuration is fully 400% more efficient. &#xD;&#xA;New side vents reduce turbulence and improve the flow of &#xD;&#xA;cooling air through the radiators, while at the rear the S model&#xD;&#xA; is distinguished by a redesigned rear bumper/diffuser with an &#xD;&#xA;eye-catching central hexagonal exhaust.  This is split into three by&#xD;&#xA; a Y shaped casting, and the rear lights echo that theme with &#xD;&#xA;three Y-shaped LEDs either side. New forged 20&quot;/21&quot; silver alloy wheels&#xD;&#xA;are also unique to the Aventador S.&#xD;&#xA;" HorizontalAlignment="Left" Margin="673,237,0,0" VerticalAlignment="Top" Height="230" Width="400"/>
+        <Button x:Name="Btn_Back" Content="Back" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Width="75" Click="Btn_Back_Click" Background="#FF6F6969" Height="29" BorderBrush="#FF1BC700"/>
+        <Button x:Name="Btn_Configuration" Content="Car Configrations" HorizontalAlignment="Left" Margin="167,476,0,0" VerticalAlignment="Top" Width="243" Background="#FF6F6969" BorderBrush="#FFA8A2B4" Click="Btn_Configuration_Click"/>
+
+
+    </Grid>
+</Page>

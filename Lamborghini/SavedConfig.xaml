@@ -1,0 +1,49 @@
+﻿<Page x:Class="Lamborghini.SavedConfig"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Lamborghini"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1100"
+      Title="SavedConfig" Background="White">
+
+    <Grid>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="1092" Margin="0,0,-292,0"/>
+        <Image HorizontalAlignment="Left" Height="69" Margin="988,10,-256,0" VerticalAlignment="Top" Width="68" Source="Images/Logo.PNG"/>
+        <Label Content="Lamborghini" HorizontalAlignment="Left" Margin="844,25,-164,0" VerticalAlignment="Top" Width="120" Height="38" Background="Black" BorderBrush="Black" Foreground="#DDFFFFFF" FontFamily="Blackadder ITC" FontSize="22" FontWeight="Bold"/>
+        <Rectangle Fill="#FF089B03" HorizontalAlignment="Left" Height="6" Margin="0,100,0,0" Stroke="#FF747474" VerticalAlignment="Top" Width="400"/>
+        <Rectangle Fill="#FF110F0F" HorizontalAlignment="Left" Height="34" Stroke="Black" VerticalAlignment="Top" Width="1092" Margin="0,636,-292,-220.4"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="6" Margin="400,100,0,0" Stroke="#FF747474" VerticalAlignment="Top" Width="391"/>
+        <Rectangle Fill="#FF9B1515" HorizontalAlignment="Left" Height="6" Margin="692,100,-292,0" Stroke="#FF747474" VerticalAlignment="Top" Width="400"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="1" Margin="343,207,0,0" Stroke="#FF807878" VerticalAlignment="Top" Width="425"/>
+        <Rectangle Fill="#FF6C6363" HorizontalAlignment="Left" Height="6" Margin="553,205,0,0" Stroke="#FF6C6363" VerticalAlignment="Top" Width="6" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="45.626"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Label Content="Saved Configurations" HorizontalAlignment="Left" Margin="450,166,0,0" VerticalAlignment="Top" Width="233" Height="36" FontFamily="Tw Cen MT" FontWeight="Bold" FontSize="24" Foreground="#FF1D1B1B"/>
+        <Button x:Name="Btn_Back" Content="Back" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Width="75" Click="Btn_Back_Click" Background="#FF6F6969" Height="29" BorderBrush="#FF1BC700"/>
+
+        <DataGrid x:Name="dg_Conf" AutoGenerateColumns="True" EnableRowVirtualization="True"
+           Margin="6,230,9,68" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Background="Red" BorderBrush="Black" x:Name="btnDelete" Click="btnDelete_Click" Content="Delete" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <Button x:Name="Btn_BackHome" Content="Home" HorizontalAlignment="Left" Margin="100,111,0,0" VerticalAlignment="Top" Width="108"  Background="#FF6F6969" Height="29" BorderBrush="#FF1BC700" Click="Btn_BackHome_Click"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,107 @@
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\bin\Debug\Lamborghini.exe.config
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\bin\Debug\Lamborghini.exe
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\bin\Debug\Lamborghini.pdb
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\bin\Debug\MaterialDesignColors.dll
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\MainWindow.g.cs
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\App.g.cs
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\Lamborghini_MarkupCompile.cache
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\Lamborghini_MarkupCompile.lref
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\App.baml
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\MainWindow.baml
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\Lamborghini.g.resources
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\Lamborghini.Properties.Resources.resources
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\Lamborghini.csproj.GenerateResource.cache
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\Lamborghini.csproj.CoreCompileInputs.cache
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\Lamborghini.csproj.CopyComplete
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\Lamborghini.exe
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\Lamborghini.pdb
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\Aventador-s.g.cs
+C:\Users\mihailovs.m\source\repos\Lamborghini\Lamborghini\obj\Debug\Aventador-s.baml
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\Lamborghini.exe.config
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\Lamborghini.exe
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\Lamborghini.pdb
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\MaterialDesignColors.dll
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\MainWindow.g.cs
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\App.g.cs
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini_MarkupCompile.cache
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini_MarkupCompile.lref
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\App.baml
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\MainWindow.baml
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.g.resources
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.Properties.Resources.resources
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.csproj.GenerateResource.cache
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.csproj.CoreCompileInputs.cache
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.csproj.CopyComplete
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.exe
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.pdb
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Main.g.cs
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\AventadorS.g.cs
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Main.baml
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\AventadorS.baml
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.csprojAssemblyReference.cache
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\bin\Debug\Lamborghini.exe.config
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\Lamborghini.exe
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\Lamborghini.pdb
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\bin\Debug\Lamborghini.exe
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\bin\Debug\Lamborghini.pdb
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\bin\Debug\MaterialDesignColors.dll
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\bin\Debug\MaterialDesignThemes.Wpf.dll
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\bin\Debug\MaterialDesignThemes.Wpf.pdb
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\bin\Debug\MaterialDesignThemes.Wpf.xml
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\Lamborghini.csprojResolveAssemblyReference.cache
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\AventadorS.g.cs
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\Main.g.cs
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\MainWindow.g.cs
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\App.g.cs
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\Lamborghini_MarkupCompile.cache
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\Lamborghini_MarkupCompile.lref
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\App.baml
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\AventadorS.baml
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\Main.baml
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\MainWindow.baml
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\Lamborghini.g.resources
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\Lamborghini.Properties.Resources.resources
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\Lamborghini.csproj.GenerateResource.Cache
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\AventadorSConfig.g.cs
+\\CUC-SRV-FS02\Studio-StuHome$\13mihailovs.m\Documents\Scripting and programming\Lamborghini\Lamborghini\obj\Debug\AventadorSConfig.baml
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\AventadorSConfig.g.cs
+D:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\AventadorSConfig.baml
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\Lamborghini.exe.config
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\Lamborghini.exe
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\Lamborghini.pdb
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\MaterialDesignColors.dll
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Main.g.cs
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\MainWindow.g.cs
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\App.g.cs
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini_MarkupCompile.cache
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini_MarkupCompile.lref
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\App.baml
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Main.baml
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\MainWindow.baml
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.g.resources
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.Properties.Resources.resources
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.csproj.GenerateResource.cache
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.csproj.CopyComplete
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.exe
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.pdb
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\AventadorS.g.cs
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\AventadorS.baml
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini.csprojAssemblyReference.cache
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\AventadorSConfig.g.cs
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\AventadorSConfig.baml
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\EntityFramework.dll
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\EntityFramework.SqlServer.dll
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\EntityFramework.xml
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\bin\Debug\EntityFramework.SqlServer.xml
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\Lamborghini_Content.g.cs
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\SavedConfig.g.cs
+E:\school\Scr & Pr\VS projects\WPF\Lamborghini\Lamborghini\obj\Debug\SavedConfig.baml

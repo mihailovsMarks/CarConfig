@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="LamboModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TblConfig">
+          <Key>
+            <PropertyRef Name="ConID" />
+          </Key>
+          <Property Name="ConID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Paint" Type="nvarchar" MaxLength="50" />
+          <Property Name="Rims" Type="nvarchar" MaxLength="50" />
+          <Property Name="BrakeAndCaliper" Type="nvarchar" MaxLength="50" />
+          <Property Name="EngineArea" Type="nvarchar" MaxLength="50" />
+          <Property Name="TopView" Type="nvarchar" MaxLength="50" />
+          <Property Name="PaintJob" Type="image" />
+        </EntityType>
+        <EntityType Name="tblCustomConfig">
+          <Key>
+            <PropertyRef Name="ConfID" />
+          </Key>
+          <Property Name="ConfID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Cpaint" Type="nvarchar" MaxLength="50" />
+          <Property Name="Crims" Type="nvarchar" MaxLength="50" />
+          <Property Name="CbrakeAndcaliper" Type="nvarchar" MaxLength="50" />
+          <Property Name="CengineArea" Type="nvarchar" MaxLength="50" />
+          <Property Name="CtopView" Type="nvarchar" MaxLength="50" />
+          <Property Name="CarImage" Type="varbinary(max)" />
+        </EntityType>
+        <EntityContainer Name="LamboModelStoreContainer">
+          <EntitySet Name="TblConfig" EntityType="Self.TblConfig" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblCustomConfig" EntityType="Self.tblCustomConfig" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LamboModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TblConfig">
+          <Key>
+            <PropertyRef Name="ConID" />
+          </Key>
+          <Property Name="ConID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Paint" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Rims" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="BrakeAndCaliper" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EngineArea" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TopView" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PaintJob" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityContainer Name="LamboEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TblConfigs" EntityType="Self.TblConfig" />
+          <EntitySet Name="tblCustomConfigs" EntityType="LamboModel.tblCustomConfig" />
+        </EntityContainer>
+        <EntityType Name="tblCustomConfig">
+          <Key>
+            <PropertyRef Name="ConfID" />
+          </Key>
+          <Property Name="ConfID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Cpaint" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Crims" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CbrakeAndcaliper" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CengineArea" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CtopView" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CarImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LamboModelStoreContainer" CdmEntityContainer="LamboEntities">
+          <EntitySetMapping Name="TblConfigs">
+            <EntityTypeMapping TypeName="LamboModel.TblConfig">
+              <MappingFragment StoreEntitySet="TblConfig">
+                <ScalarProperty Name="PaintJob" ColumnName="PaintJob" />
+                <ScalarProperty Name="ConID" ColumnName="ConID" />
+                <ScalarProperty Name="Paint" ColumnName="Paint" />
+                <ScalarProperty Name="Rims" ColumnName="Rims" />
+                <ScalarProperty Name="BrakeAndCaliper" ColumnName="BrakeAndCaliper" />
+                <ScalarProperty Name="EngineArea" ColumnName="EngineArea" />
+                <ScalarProperty Name="TopView" ColumnName="TopView" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblCustomConfigs">
+            <EntityTypeMapping TypeName="LamboModel.tblCustomConfig">
+              <MappingFragment StoreEntitySet="tblCustomConfig">
+                <ScalarProperty Name="CarImage" ColumnName="CarImage" />
+                <ScalarProperty Name="CtopView" ColumnName="CtopView" />
+                <ScalarProperty Name="CengineArea" ColumnName="CengineArea" />
+                <ScalarProperty Name="CbrakeAndcaliper" ColumnName="CbrakeAndcaliper" />
+                <ScalarProperty Name="Crims" ColumnName="Crims" />
+                <ScalarProperty Name="Cpaint" ColumnName="Cpaint" />
+                <ScalarProperty Name="ConfID" ColumnName="ConfID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
